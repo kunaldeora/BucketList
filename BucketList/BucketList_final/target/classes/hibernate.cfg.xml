@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/bucketList</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+<!-- 		to see the queries  -->
+
+		<mapping class="com.neu.BucketList.Pojo.Person" />
+		<mapping class="com.neu.BucketList.Pojo.UserAccount" />
+		<mapping class="com.neu.BucketList.Pojo.Adventurer" />
+		<mapping class="com.neu.BucketList.Pojo.Adventure" />
+		<mapping class="com.neu.BucketList.Pojo.Orders" />
+		<mapping class="com.neu.BucketList.Pojo.Organizer" />
+		<mapping class="com.neu.BucketList.Pojo.Tickets" />
+		<mapping class="com.neu.BucketList.Pojo.OrderItems" />
+		<mapping class="com.neu.BucketList.Pojo.Advertisement"/>
+		<mapping class="com.neu.BucketList.Pojo.Location" />
+		<mapping class="com.neu.BucketList.Pojo.BucketList"/>
+
+
+        <!-- to enable the second level caching  -->
+
+
+	</session-factory>
+</hibernate-configuration>

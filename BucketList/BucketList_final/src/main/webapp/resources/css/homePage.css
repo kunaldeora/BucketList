@@ -1,0 +1,41 @@
+.tagline{
+	font-size: 300%;
+	top:5%;
+	position:absolute;
+	left:12%;
+	font-weight: bold;
+	font: normal 48px 'Cookie', cursive;
+}
+.subtagline{
+	font-size: 100%;
+	top:20%;
+	position:absolute;
+	left:28%;
+	font: normal 16px 'Cookie', cursive;
+	font-weight: bold;
+}
+
+.middle{
+	top: 150px;
+    position: absolute;
+}
+
+#btnSubmit{
+	top: 20%;
+	width:100%;
+	height:40px;
+}
+#btnLoginAdventurer{
+	top: 20%;
+	width:100%;
+	height:40px;
+}
+
+#divLogin{
+	top:20%;
+	margin-top:100px;	
+}
+#btnLogin{
+	width:100%;
+	height:40px;
+}
